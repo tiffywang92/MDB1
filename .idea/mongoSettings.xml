@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MongoConfiguration">
+    <option name="serverConfigurations">
+      <list>
+        <ServerConfiguration>
+          <option name="authenticationDatabase" value="heroku_8vdpfmgs" />
+          <option name="authenticationMechanism" value="SCRAM-SHA-1" />
+          <option name="label" value="mLab" />
+          <option name="password" value="tiffany92!" />
+          <option name="serverUrls">
+            <list>
+              <option value="ds245755.mlab.com:45755" />
+            </list>
+          </option>
+          <option name="sshTunnelingConfiguration">
+            <SshTunnelingConfiguration />
+          </option>
+          <option name="userDatabase" value="heroku_8vdpfmgs" />
+          <option name="username" value="rd7359" />
+        </ServerConfiguration>
+      </list>
+    </option>
+    <option name="shellPath" value="C:\Program Files\MongoDB\Server\3.2\bin\mongo.exe" />
+  </component>
+</project>
