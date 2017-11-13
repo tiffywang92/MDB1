@@ -2,9 +2,8 @@ var mongodb = require('mongodb');
 var mongoDBURI = process.env.MONGODB_URI || 'mongodb://rd7359:tiffany92!@ds245755.mlab.com:45755/heroku_8vdpfmgs';
 
 
-/** getAllOrders controller logic that current does model logic too -connects to MongoDB database and
- * queries the Orders collection to retrieve all the Orders and build the output using the
- * ejs template mongodb.ejs found in views directory
+/** getAllOrders controller connects to MongoDB database, queries the Orders collection to retrieve all the Orders
+ *  and builds the output using the ejs template mongodb.ejs found in views directory
  * @param request
  * @param response
  *
@@ -24,7 +23,7 @@ module.exports.getAllOrders =  function (request, response) {
 
         c.forEach(
             function(myDoc) {
-                console.log( "_id: " + myDoc.id );  //just logging the output to the console
+                console.log( "_id: " + myDoc._id );  //just logging the output to the console
             }
         );
 
